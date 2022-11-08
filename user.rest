@@ -1,0 +1,36 @@
+
+
+GET http://localhost:3000/routes HTTP/1.1
+
+###
+
+GET http://localhost:3000/routes/9b9c0222-9a1e-4aa9-9a68-154113c93db5 HTTP/1.1
+
+###
+
+POST http://localhost:3000/routes HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "flight to canada",
+    "time": "1pm",
+    "price": "26000",
+    "date": "26-06-2022"
+}
+
+###
+
+PUT http://localhost:3000/routes/de81b640-a8c4-4f1d-95c5-f7a35d963615 HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "olumi",
+    "time": "1pm",
+    "price": "26000",
+    "date": "26-06-2022"
+}
+
+###
+
+DELETE http://localhost:3000/routes/82ce0094-b3df-4c5a-b5d3-6c6faf523b1f HTTP/1.1
+
